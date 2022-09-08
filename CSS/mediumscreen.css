@@ -1,0 +1,186 @@
+header {
+    width: 90%;
+    margin-left: 5%;
+}
+
+main {
+    width: 90%;
+    margin-left: 5%;
+}
+
+nav {
+    margin-left: 35%;
+}
+
+#filtres {
+    width: 700px;
+    justify-content: left;
+    font-size: 14px;
+}
+
+.bordure {
+    padding-right: 10px;
+    margin-left: 1%;
+}
+
+#plus_populaires {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.more_pop {
+    width: 700px;
+    margin-top: 15px;
+}
+
+.description_pop {
+    width: 30%;
+    height: 250px;
+}
+
+.deplacement_description {
+    width: 90%;
+    padding-top: 10px;
+}
+
+.deplacement_prix {
+    width: 90%;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.hotel_pop {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel_pop_photo {
+    max-width: 100%;
+	max-height: 100%;
+    width: 94%;
+	height: 130px;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+    left: 3%;
+}
+
+.deplacement_etoile_2 {
+    top: 20px;
+}
+
+.deplacement_etoile {
+    bottom: -5px;
+}
+
+#hebergement {
+    width: 100%;
+}
+
+.hotel {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.hotel_photo {
+    max-width: 100%;
+	max-height: 100%;
+    width: 94%;
+	height: 110px;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+    left: 3%;
+}
+
+#activites {
+    height: 750px;
+    width: 100%;
+}
+
+.activite_texte {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.activite_1 {
+    position: relative;
+    top: -20px;
+    left: 0px;
+    width: 220px;
+    height: 300px;
+}
+.activite_1_photo {
+    width: 220px;
+    height: 260px;
+}
+
+.activite_2 {
+    width: 220px;
+    height: 300px;
+    top: -20px;
+    left: 0px;
+}
+
+.activite_2_photo {
+    width: 220px;
+    height: 260px;
+}
+
+.activite_3 {
+    width: 220px;
+    height: 300px;
+    top: -20px;
+    left: 0px;
+}
+
+.activite_3_photo {
+    width: 220px;
+    height: 260px;
+}
+
+.activite_4 {
+    width: 220px;
+    left: 0px;
+    top: -10px;
+    height: 300px;
+}
+
+.activite_4_photo {
+    width: 220px;
+    height: 260px;
+}
+
+.activite_5 {
+    width: 220px;
+    height: 300px;
+    top: -13px;
+    left: 0px;
+}
+
+.activite_5_photo {
+    width: 220px;
+    height: 260px;
+}
+
+.activite_6 {
+    width: 220px;
+    height: 300px;
+    top: -15px;
+    left: 0px;
+}
+
+.activite_6_photo {
+    width: 220px;
+    height: 260px;
+}
+
+footer {
+    width: 100%;
+}

@@ -1,0 +1,247 @@
+body {
+    width: 100%;
+    margin-left: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: -12px;
+}
+
+nav {
+    height: 20px;
+    justify-content: space-around;
+    margin-left: 0%;
+    width: auto;
+}
+
+.logo {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    position: relative;
+    left: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 50%;
+    padding-top: 0px;
+    border-bottom: #f2f2f2 solid 3px;
+    position: relative;
+    left: 10px;
+}
+
+.navigation:hover {
+    border-bottom: #0065fc solid 3px;
+    border-top: none;
+    position: relative;
+    top: 0px;
+}
+
+main {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+table {
+    width: 95%;
+    max-width: 340px;
+}
+
+.th_recherche {
+    max-width: 236px;
+    width: 70%;
+}
+
+.recherche {
+    max-width: 236px;
+    width: 70%;
+}
+
+.presentation {
+    width: 90%;
+    margin-left: 7%;
+}
+
+.bouton {
+    width: 50px;
+    height: 50px;
+    background-color: #0065fc;
+    border-radius: 15px;
+}
+
+.bouton_recherche {
+    display: none;
+}
+
+.fas.fa-search {
+    display: initial;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#filtres {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+div p {
+    width: 90%;
+}
+
+.bordure {
+    margin-bottom: 10px;
+}
+
+.catch_phrase {
+    display: flex;
+}
+
+.fas.fa-info {
+    position: relative;
+    top: -2px;
+    left: 0px;
+}
+
+.far.fa-circle {
+    position: relative;
+    top: 6px;
+    left: -14px;
+}
+
+em {
+    display: block;
+    width: 85%;
+    position: relative;
+    top: -16px;
+    left: 30px;
+}
+
+#plus_populaires {
+    width: 100%;
+    border-radius: 0px;
+    position: relative;
+    left: 0px;
+}
+
+.more_pop {
+    width: 90%;
+}
+
+.hotel_pop {
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.deplacement_prix {
+    bottom: 5%;
+}
+
+.deplacement_etoile {
+    bottom: -50px;
+}
+
+.deplacement_etoile_2 {
+    bottom: -50px;
+}
+
+#hebergement {
+    width: 100%;
+    height: 1400px;
+    margin-left: 0px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+
+#titre_hebergement {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+
+.boite_hotel {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    left: 0%;
+    padding-left: 4%;
+}
+
+.hotel {
+    width: 90%;
+    height: 200px;
+    position: relative;
+    left: 0%;
+    margin-bottom: 0px;
+}
+
+.hotel_photo {
+    width: 95%;
+    height: 110px;
+    padding-top: 1.5%;
+    padding-left: 0%;
+}
+
+.nuit {
+    top: -20px;
+}
+
+.prix {
+    top: -20px;
+}
+
+.bleu {
+    top: -50px;
+}
+
+.blanc {
+    top: -50px;
+}
+
+#activites {
+    width: 100%;
+    position: relative;
+    left: 0px;
+    height: auto;
+}
+
+.activite_1, .activite_2, .activite_3, .activite_4, .activite_5, .activite_6 {
+    width: 90%;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 30px;
+}
+
+.activite_1_photo, .activite_2_photo, .activite_3_photo, .activite_4_photo, .activite_5_photo, .activite_6_photo {
+    width: 100%;
+    height: 130px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+    height: auto;
+}
+
+.taille_liste {
+    width: 90%;
+}
